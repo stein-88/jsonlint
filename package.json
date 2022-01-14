@@ -1,5 +1,5 @@
 {
-  "name": "tarefajson",
+  "name": "jsonhelper",
   "version": "1.0.0",
   "description": "lint json",
   "main": "gulpfile",
