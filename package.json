@@ -1,0 +1,17 @@
+{
+  "name": "tarefajson",
+  "version": "1.0.0",
+  "description": "lint json",
+  "main": "gulpfile",
+  "author": "WandersonSantos",
+  "license": "MIT",
+  "scripts": {
+    "func": "gulp"
+  },
+  "dependencies": {
+    "fancy-log": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-jsonlint": "^1.3.2",
+    "yarn": "^1.22.17"
+  }
+}
