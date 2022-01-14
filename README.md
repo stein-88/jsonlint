@@ -1,23 +1,9 @@
 # jsonlint
 
-Install
-> yarn add gulp
-> yarn add gulp-jsonlint
-> yarn add fancy-log
+## Install
+`yarn install`
 
-
-Usage
-
-const gulp = require('gulp')
-const jsonlint = require("gulp-jsonlint")
-const log = require('fancy-log')
-
-const myCustomReporter = (file) => {
-    log('File ' + file.path + ' is not valid JSON.')
-}
-
-gulp.task('default', () => {
-    return gulp.src('./src/*.json')
-        .pipe(jsonlint())
-        .pipe(jsonlint.reporter(myCustomReporter))
-})
+## Usage
+- Colocar os json na pasta `src`.
+- Rodar os seguintes comandos:
+    - `yarn checkjson` ou `yarn checkdef`.

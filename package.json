@@ -6,7 +6,8 @@
   "author": "WandersonSantos",
   "license": "MIT",
   "scripts": {
-    "func": "gulp"
+    "checkjson": "gulp checkjson",
+    "checkdef": "gulp"
   },
   "dependencies": {
     "fancy-log": "^2.0.0",

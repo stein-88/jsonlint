@@ -6,8 +6,11 @@ const myCustomReporter = (file) => {
     log('File ' + file.path + ' is not valid JSON.')
 }
 
-gulp.task('default', () => {
+const checkjson = () => {
     return gulp.src('./src/*.json')
         .pipe(jsonlint())
         .pipe(jsonlint.reporter(myCustomReporter))
-})
+}
+
+exports.checkjson = checkjson
+exports.default = checkjson
